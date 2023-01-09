@@ -1853,36 +1853,8 @@ video {
   --tw-bg-opacity: 0.9;
 }
 
-.bg-\[url\(\'\/dist\/img\/trex\.jpg\'\)\] {
-  background-image: url('/dist/img/trex.jpg');
-}
-
-.bg-\[url\(\'\/dist\/img\/\'\)\] {
-  background-image: url('/dist/img/');
-}
-
-.bg-\[url\(\'\/dist\/img\/trex\.webp\'\)\] {
-  background-image: url('/dist/img/trex.webp');
-}
-
-.bg-\[url\(\'\/dist\/img\/trex\'\)\] {
-  background-image: url('/dist/img/trex');
-}
-
-.bg-\[url\(\'\/dist\/img\/trex\.\'\)\] {
-  background-image: url('/dist/img/trex.');
-}
-
-.bg-\[url\(\'\/dist\/img\/tre\'\)\] {
-  background-image: url('/dist/img/tre');
-}
-
-.bg-\[url\(\'\/dist\/img\'\)\] {
-  background-image: url('/dist/img');
-}
-
-.bg-\[url\(\'\/dist\/img\/tr\'\)\] {
-  background-image: url('/dist/img/tr');
+.bg-\[url\(\'\/dist\/img\/pexels-cup-of-couple-8014466\.jpg\'\)\] {
+  background-image: url('/dist/img/pexels-cup-of-couple-8014466.jpg');
 }
 
 .decoration-slice {
@@ -2037,14 +2009,14 @@ video {
   padding-right: 1.5rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-32 {
