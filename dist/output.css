@@ -617,8 +617,8 @@ video {
   left: -0.25rem;
 }
 
-.top-\[calc\(7\.8vh\)\] {
-  top: calc(7.8vh);
+.top-0 {
+  top: 0px;
 }
 
 .right-0 {
@@ -633,8 +633,8 @@ video {
   isolation: auto;
 }
 
-.-z-10 {
-  z-index: -10;
+.z-10 {
+  z-index: 10;
 }
 
 .float-right {
@@ -690,6 +690,10 @@ video {
 
 .ml-5 {
   margin-left: 1.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-2 {
@@ -817,12 +821,12 @@ video {
   height: max-content;
 }
 
-.h-12 {
-  height: 3rem;
-}
-
 .h-full {
   height: 100%;
+}
+
+.h-12 {
+  height: 3rem;
 }
 
 .h-\[100vh\] {
@@ -831,6 +835,10 @@ video {
 
 .h-\[140px\] {
   height: 140px;
+}
+
+.h-\[1000vh\] {
+  height: 1000vh;
 }
 
 .min-h-\[100vh\] {
@@ -1833,6 +1841,11 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-slate-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
 }
@@ -1851,6 +1864,18 @@ video {
 
 .bg-opacity-90 {
   --tw-bg-opacity: 0.9;
+}
+
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
+
+.bg-opacity-60 {
+  --tw-bg-opacity: 0.6;
+}
+
+.bg-opacity-70 {
+  --tw-bg-opacity: 0.7;
 }
 
 .bg-\[url\(\'\/dist\/img\/pexels-cup-of-couple-8014466\.jpg\'\)\] {
@@ -2022,6 +2047,16 @@ video {
 .py-32 {
   padding-top: 8rem;
   padding-bottom: 8rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .pt-2 {
@@ -2817,10 +2852,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:relative {
-    position: relative;
-  }
-
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
